@@ -13,10 +13,11 @@ while running:
 	for event in pygame.event.get(): 
 		if event.type == pygame.QUIT: 
 			run = False
+			#debug check| doesn't this have to be "running" not "run" var - abir
 
-	if keys[pygame.K_ESCAPE]:
-		running = False
+		if keys[pygame.K_ESCAPE]:
+			running = False
 
-
+# do you need more keys e.g up arrow
 
 exit()
