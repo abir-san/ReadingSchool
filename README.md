@@ -20,9 +20,9 @@ Victor T (8L) - Sprite movement
 
 Adhiraj T - (8W) - Sprite building
 
-Ethan A (8W) - ?
+Ethan A (8W) - 
 
-Yuvan S (8E) - ?
+Yuvan S (8E) - 
 
 Comments:
 
