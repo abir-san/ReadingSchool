@@ -1,10 +1,5 @@
-#ReadingSchool
 
 Reading School involves a pixel scrolling game similar to Champion Island involving crazy lore, quests and tasks.
-
-Organisation
-
-You have been invited to help in a PROJECT!
 
 You can access the Codespace for this project by clicking code and codespace and start working in main.py using the VSC editor. 
 
@@ -14,16 +9,9 @@ There is a group of students trying to free the Headmaster and escape the school
 
 Role management and People offered to help.
 
-Abir T (8W) - Background building and coding
+Abir T - Background building and coding  
+Victor T - Sprite movement  
+Adhiraj T - Sprite building  
+Ethan A -  
+Yuvan S -  
 
-Victor T (8L) - Sprite movement
-
-Adhiraj T - (8W) - Sprite building
-
-Ethan A (8W) - 
-
-Yuvan S (8E) - 
-
-Comments:
-
-Anyone for coding?
