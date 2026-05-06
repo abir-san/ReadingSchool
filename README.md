@@ -14,5 +14,3 @@ Victor T - Sprite movement
 Adhiraj T - Sprite building  
 Ethan A -  
 Yuvan S -  
-
-Victor - I'm fine to code as well, since I can't spend all the time on sprite movement. It's just that I had an idea on how to make the scrolling background with sprites.
