@@ -14,7 +14,8 @@ while running:
 
 		if keys[pygame.K_ESCAPE]:
 			running = False
-			# bare in mind we need WASD and arrow, arrow for players who dont use WASD (cough cough, Me)
+			# bear in mind we need WASD and arrow, arrow for players who dont use WASD (cough cough, Me)
+			# All right, fine
         if keys[pygame.K_w] or keys[pygame.K_UP]:
 			screen.fill(pygame.Color(255, 255, 123))
 			
@@ -23,5 +24,3 @@ while running:
 	
 	pygame.display.update()
 
-# I did a bit of copy and paste, so the variables didn't match perfectly, and yes, more keys will get added later. This was just so it was possible to close the pygame program.
-# Otherwise, since it loads in fullscreen, it's actually very annoying to try and close. - Victor
