@@ -18,7 +18,10 @@ running = True
 
 while running:
 	keys = pygame.key.get_pressed()
-	
+	colour = (255, 0, 0)
+	screen.fill(pygame.Color(255, 255, 123))
+	pygame.draw.rect(screen, colour, (x, y, width, height))
+
 	for event in pygame.event.get(): 
 		if event.type == pygame.QUIT: 
 			running = False
@@ -30,26 +33,18 @@ while running:
 			# Also, please only use tabs for indentation, not spaces. Python has problems if you mix the two. - Victor
 				
 		if keys[pygame.K_w] and y > 0 or keys[pygame.K_UP] and y > 0:
-			screen.fill(pygame.Color(255, 255, 123))
-			colour = (255, 0, 0)
 			pygame.draw.rect(screen, colour, (x, y, width, height))
 			y -= speed
 
 		if keys[pygame.K_s] and y < 720 - height or keys[pygame.K_DOWN] and y < 720 - height:
-			screen.fill(pygame.Color(255, 255, 123))
-			colour = (255, 0, 0)
 			pygame.draw.rect(screen, colour, (x, y, width, height))
 			y += speed
 
 		if keys[pygame.K_a] and x > 0 or keys[pygame.K_LEFT] and x > 0:
-			screen.fill(pygame.Color(255, 255, 123))
-			colour = (255, 0, 0)
 			pygame.draw.rect(screen, colour, (x, y, width, height))
 			x -= speed
 
 		if keys[pygame.K_d] and x < 1080 - width or keys[pygame.K_RIGHT] and x < 1080 - width:
-			screen.fill(pygame.Color(255, 255, 123))
-			colour = (255, 0, 0)
 			pygame.draw.rect(screen, colour, (x, y, width, height))
 			x += speed
 
