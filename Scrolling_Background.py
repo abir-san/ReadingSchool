@@ -33,19 +33,15 @@ while running:
 			# Also, please only use tabs for indentation, not spaces. Python has problems if you mix the two. - Victor
 				
 		if keys[pygame.K_w] and y > 0 or keys[pygame.K_UP] and y > 0:
-			pygame.draw.rect(screen, colour, (x, y, width, height))
 			y -= speed
 
 		if keys[pygame.K_s] and y < 720 - height or keys[pygame.K_DOWN] and y < 720 - height:
-			pygame.draw.rect(screen, colour, (x, y, width, height))
 			y += speed
 
 		if keys[pygame.K_a] and x > 0 or keys[pygame.K_LEFT] and x > 0:
-			pygame.draw.rect(screen, colour, (x, y, width, height))
 			x -= speed
 
 		if keys[pygame.K_d] and x < 1080 - width or keys[pygame.K_RIGHT] and x < 1080 - width:
-			pygame.draw.rect(screen, colour, (x, y, width, height))
 			x += speed
 
 	pygame.display.update()
