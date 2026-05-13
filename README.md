@@ -1,5 +1,5 @@
 
-Reading School involves a pixel scrolling game similar to Champion Island involving crazy lore, quests and tasks.
+Pixel Game involves a pixel scrolling game similar to Champion Island involving crazy lore, quests and tasks.
 
 You can access the Codespace for this project by clicking code and codespace and start working in main.py using the VSC editor. 
 
